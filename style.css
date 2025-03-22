@@ -1,0 +1,137 @@
+body {
+
+    font-weight: 400;
+    font-style: normal;
+    background-color: white;
+    color: #333;
+    margin: 0;
+    padding: 0;
+    line-height: 1.6;
+}
+
+header {
+    background-color: #DEB887;
+    color: #fff;
+    padding: 20px 0;
+    text-align: center;
+    border-bottom: 5px solid #F4A460;
+}
+
+header h1 {
+    font-family: "Domine", serif;
+    margin: 5px 0;
+    font-size: 2.5em;
+}
+
+nav {
+    margin-top: 10px;
+}
+
+nav a {
+    text-decoration: none;
+    color: #fff;
+    margin: 0 15px;
+    font-weight: bold;
+    font-family: "Domine", serif;
+}
+
+nav a:hover {
+    text-decoration: none;
+    background-color: #BC8F8F;
+    padding: 8px;
+    border-radius: 10px;
+
+}
+
+main {
+    padding: 20px;
+    max-width: 900px;
+    margin: 0 auto;
+}
+
+section {
+    margin-bottom: 30px;
+    padding: 15px;
+    background-color: #fff;
+    border: 1px solid #ddd;
+    border-radius: 10px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.24);
+}
+
+h2 {
+    color: #A0522D;
+    border-bottom: 2px solid #A0522D;
+    padding-bottom: 5px;
+    font-family: "Italiana", sans-serif;
+}
+
+h3{
+    color: #8B4513;
+    font-family: "Italiana", sans-serif;
+    font-weight: 700;
+}
+
+p {
+    margin-top: 10px;
+    text-align: justify;
+    font-family: 'Merienda';
+    font-size: 15px;
+    margin: 0; 
+    line-height: 1.4; 
+    
+}
+
+li{
+    font-family: "Poiret One", sans-serif;
+    font-weight: 700;
+    font-style: none;
+}
+
+.informacoes{
+    font-family: "Poiret One", sans-serif;
+    font-weight: 700;
+    font-style: none;
+}
+
+.apresentacao{
+    font-weight: bold;
+    color: #8B4513; 
+    font-size: 30px; 
+    text-align: center;
+    font-family: "Charm", cursive;
+    
+}
+
+.certificado-container {
+    text-align: center; 
+}
+
+.certificado-container ul {
+    display: inline-block; 
+    text-align: left; 
+    margin-bottom: 20px; 
+}
+
+.certificado-container img {
+    display: block; 
+    margin: 0 auto; 
+}
+
+
+
+.footer{
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 15px;
+    text-align: center;
+}
+
+
+
+footer{
+    bottom: 0;
+    text-align: center;
+    background-image: linear-gradient(to top, #000000, #8d8c8c);
+    color: white;
+    padding: 1px;
+    width: 100vw;
+}
